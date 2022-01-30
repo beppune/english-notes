@@ -5,7 +5,7 @@
         <title>Appunti di Inglese</title>
         <style>
             .red-text {
-                color: rgb(200, 37, 37);
+                color: rgb(167, 37, 200);
             }
 
             .blue-text {
@@ -21,6 +21,26 @@
             }
             
             .bold {
+                font-weight: 600;
+            }
+
+            .s {
+                color: rgb(41, 41, 175);
+                font-weight: 600;
+            }
+
+            .v {
+                color: rgb(12, 136, 43);
+                font-weight: 600;
+            }
+
+            .o {
+                color: rgb(235, 90, 22);
+                font-weight: 600;
+            }
+
+            .w {
+                color: rgb(167, 37, 200);
                 font-weight: 600;
             }
 
@@ -43,6 +63,19 @@
             main {
                 height: 100%;
                 background-color: bisque;
+                padding: 1rem;
+            }
+            
+            .legenda{
+                margin-bottom: 1rem;
+            }
+
+            .frasi{
+                padding: 2rem;
+            }
+
+            li {
+                margin-bottom: .3rem;
             }
 
         </style>
@@ -51,12 +84,58 @@
         <main>
             <h1>Appunti di Inglese per Daniele</h1>
             <div class="legenda">
-                <span class="blue-text bold">Soggetto</span>,
-                <span class="green-text bold">Verbo</span>,
-                <span class="orange-text bold">Complemento Oggetto</span>
+                <span class="blue-text bold">Soggetto</span>, 
+                <span class="green-text bold">Verbo</span>, 
+                <span class="orange-text bold">Complemento Oggetto</span>, 
+                <span class="w">Parole importanti</span>
             </div>
 
-            
+            <div class="frasi">
+                <ul>
+                    <li class="frase">
+                        <span class="s">I</span> <span class="v">come</span> <span class="o">here</span> 
+                        <span class="w">every day</span>.
+                    </li>
+
+                    <li class="frase">
+                        <span class="s">Sam</span> 
+                        <span class="v">was</span> 
+                        <span class="o">at work</span> 
+                        <span class="w">yesterday</span>.
+                    </li>
+
+                    <li class="frase">
+                        <span class="w">Usually </span>
+                        <span class="s">I </span>
+                        <span class="v">spend </span>
+                        <span class="o">the holidays </span>
+                        <span>in Italy.</span>
+                    </li>
+
+                    <li class="frase">
+                        <span class="s">I </span>
+                        <span class="v">don't like </span>
+                        <span class="o">going downtown at night. </span>
+                        <span class="s">I </span>
+                        <span class="v">was </span>
+                        <span class="o">robbed </span>
+                        <span class="w">once.</span>
+                    </li>
+
+                    <li class="frase">
+                        <span class="v">Did </span>
+                        <span class="s">you </span>
+                        <span class="v">go </span>
+                        <span class="o">to the mall </span>
+                        <span class="w">yesterday? </span>
+                        <span class="s">I </span>
+                        <span class="v">go </span>
+                        <span class="o">there </span>
+                        <span class="w">every weekend.</span>
+                    </li>
+                </ul>
+            </div>
+
         </main>
 
     </body>
